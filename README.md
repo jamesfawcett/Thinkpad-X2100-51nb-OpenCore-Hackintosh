@@ -1,6 +1,6 @@
 # Thinkpad-X2100-51nb-OpenCore-Hackintosh
 
-I couldn't find a good working solution for Big Sur on the X2100. The SSDT's and info in this refo is not all my work, I have gathered it from around the internet and cobbled it together into the EFI you see here! There's a few thing's I'm still working on, please feel free to contribute!
+I couldn't find a good working solution for Big Sur on the X2100. The SSDT's and info in this repo is not all my work, I have gathered it from around the internet and cobbled it together into the EFI you see here! There's a few thing's I'm still working on, please feel free to contribute!
 
 ## Current Specs
 
