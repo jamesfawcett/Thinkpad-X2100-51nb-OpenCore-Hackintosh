@@ -871,10 +871,12 @@
 			<false/>
 			<key>SysReport</key>
 			<true/>
-			<key>Target</key>
+			<key>#Target</key>
 			<integer>67</integer>
 			<key>#Target</key>
 			<integer>3</integer>
+			<key>Target</key>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1055,77 +1057,6 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
-		<key>DataHub</key>
-		<dict>
-			<key>ARTFrequency</key>
-			<integer>0</integer>
-			<key>BoardProduct</key>
-			<string>Mac-00000000</string>
-			<key>BoardRevision</key>
-			<data>AQ==</data>
-			<key>DevicePathsSupported</key>
-			<integer>0</integer>
-			<key>FSBFrequency</key>
-			<integer>0</integer>
-			<key>InitialTSC</key>
-			<integer>0</integer>
-			<key>PlatformName</key>
-			<string></string>
-			<key>SmcBranch</key>
-			<data></data>
-			<key>SmcPlatform</key>
-			<data>00000000=</data>
-			<key>SmcRevision</key>
-			<data></data>
-			<key>StartupPowerEvents</key>
-			<integer>0</integer>
-			<key>SystemProductName</key>
-			<string>MacBookPro15,2</string>
-			<key>SystemSerialNumber</key>
-			<string>00000000</string>
-			<key>SystemUUID</key>
-			<string>00000000</string>
-		</dict>
-		<key>Generic</key>
-		<dict>
-			<key>AdviseFeatures</key>
-			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
-			<key>MLB</key>
-			<string>00000000</string>
-			<key>ProcessorType</key>
-			<integer>1793</integer>
-			<key>ROM</key>
-			<data>ESIzRFVm</data>
-			<key>SpoofVendor</key>
-			<true/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
-			<key>SystemProductName</key>
-			<string>MacBookPro15,2</string>
-			<key>SystemSerialNumber</key>
-			<string>00000000</string>
-			<key>SystemUUID</key>
-			<string>00000000</string>
-		</dict>
-		<key>PlatformNVRAM</key>
-		<dict>
-			<key>BID</key>
-			<string>00000000</string>
-			<key>FirmwareFeatures</key>
-			<data>JvSP/QAAAAA=</data>
-			<key>FirmwareFeaturesMask</key>
-			<data>P/+f/wAAAAA=</data>
-			<key>MLB</key>
-			<string>00000000</string>
-			<key>ROM</key>
-			<data>ESIzRFVm</data>
-			<key>SystemSerialNumber</key>
-			<string></string>
-			<key>SystemUUID</key>
-			<string>00000000</string>
-		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
@@ -1395,7 +1326,7 @@
 				<key>Comment</key>
 				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Size</key>
 				<integer>4096</integer>
 				<key>Type</key>
