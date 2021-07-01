@@ -22,7 +22,7 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 
 ## Working
 
-- [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur**
+- [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur 11.4**
 - [x] **Wifi and Bluetooth with AX200 (I will soon be swapping to Broadcom BCM94360NG)**
 - [x] **Trackpoint**
 - [x] **iMessage**
@@ -50,7 +50,7 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 
 Thanks for your support, your help was crucial for my progress!
 
-- [lulujyc] (https://github.com/lulujyc/51nb-X210-Hackintosh) for his insights and help
+- [lulujyc](https://github.com/lulujyc/51nb-X210-Hackintosh) for helpful insights and help
 - [Dortania](https://github.com/dortania) for this in depth OpenCore Desktop Guide
 - [Acidanthera](https://github.com/acidanthera) So many quality Kexts!
 - [OpenCore project](https://github.com/OpenCorePkg) So much better than Clover!
