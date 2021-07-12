@@ -231,6 +231,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -302,6 +304,19 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>CQCbPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>mz4AAA==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics 655</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -484,24 +499,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-				<key>Comment</key>
-				<string>MT2</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -782,6 +779,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
@@ -821,7 +820,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -840,7 +839,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>#Target</key>
 			<integer>3</integer>
 		</dict>
@@ -852,15 +851,33 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>Windows10</string>
+				<string>Windows 10</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>Windows 10</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x2,0xFFFF,0x0)/HD(7,GPT,CFB83D52-C55F-4E80-9CA0-B8A5D6F4093F,0x1C50E800,0xC348000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>Name</key>
-				<string>U-Win10</string>
+				<string>Manjaro</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x14,0x0)/USB(0xF,0x0)/USB(0x1,0x0)/HD(1,GPT,86A2AF4A-9044-4BEF-AA82-0EB074533A3C,0x28,0x64000)/\EFI-win10\Microsoft\Boot\bootmgfw.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,86-B4-07-46-4A-44-1B-00)/HD(1,GPT,A5690CD4-294F-9847-AAF9-E5ACED517252,0x800,0x2874000)/\EFI\BOOT\BOOTx64-manjaro-nvme.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -968,13 +985,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<dict>
-				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>Ag==</data>
-			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
