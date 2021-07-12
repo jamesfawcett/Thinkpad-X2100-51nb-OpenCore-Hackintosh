@@ -1,10 +1,8 @@
 # Thinkpad-X2100-51nb-OpenCore-Hackintosh
 
-I couldn't find a good working solution for Big Sur on the X2100. The SSDT's and info in this repo is not all my work, I have gathered it from around the internet and cobbled it together into the EFI you see here! There's a few thing's I'm still working on, please feel free to contribute!
-
 ## Current Specs
 
-- Modified ThinkPad X2100 built by KK-Mod Shop to a very high standard. It's perfect! 
+- Modified ThinkPad X2100 built by KK-Mod Shop with a 51nb motherboard 
 - ThinkPad X201s Chassis with brand new plastics
 - 51nb Internal Motherboard (Gen4 with USB-C support)
 - Quad-core i7-10150u CPU
@@ -14,7 +12,7 @@ I couldn't find a good working solution for Big Sur on the X2100. The SSDT's and
 
 ## Instructions
 
-I will improve on this section if it is helpful? Please let me know! Full install guide is available in the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)
+Full install guide is available in the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)
 
 - Download the EFI
 - Generate SMBIOS for MacBookPro15,2 and put the values in config.plist. 
@@ -26,8 +24,8 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 - [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur 11.4**
 - [x] **Wifi and Bluetooth with AX200 (I will soon be swapping to Broadcom BCM94360NG)**
 - [x] **Trackpoint**
+- [x] **All mouse buttons and trackpad**
 - [x] **iMessage**
-- [x] **The three mouse buttons in front of trackpoint**
 - [x] **USB-C**
 - [x] **Audio speakers**
 - [x] **Volume control buttons**
@@ -42,7 +40,6 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 
 ## Not working so far
 
-- Two front left and right trackpad mouse buttons
 - Sleep
 - SD Card reader
 - Fingerprint reader
