@@ -1388,7 +1388,7 @@
 				<key>Comment</key>
 				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Size</key>
 				<integer>4096</integer>
 				<key>Type</key>
