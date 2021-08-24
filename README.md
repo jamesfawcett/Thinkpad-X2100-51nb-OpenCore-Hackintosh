@@ -1,5 +1,7 @@
 # Thinkpad-X2100-51nb-OpenCore-Hackintosh
 
+![Thinkpad X2100 hackintosh OpenCore](/thinkpad-x2100.jpg)
+
 ## Current Specs
 
 - Modified ThinkPad X2100 built by KK-Mod Shop with a 51nb motherboard 
@@ -36,12 +38,12 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 - [x] **USB Ports**
 - [x] **Shutdown**
 - [x] **Restart**
-
+- [x] **SD Card Reader**
+- [x] **Headphone jacks**
 
 ## Not working so far
 
-- Sleep
-- SD Card reader
+- Sleep *Sometimes it works* - if you run Sleep > Lock Screen, it will sleep after a while. I am working on this!
 - Fingerprint reader
 
 ## Credits
