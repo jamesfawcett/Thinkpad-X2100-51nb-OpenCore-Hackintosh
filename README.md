@@ -23,7 +23,7 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 
 ## Working
 
-- [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur 11.4**
+- [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur 11.6**
 - [x] **Wifi and Bluetooth with AX200 (I will soon be swapping to Broadcom BCM94360NG)**
 - [x] **Trackpoint**
 - [x] **All mouse buttons and trackpad**
