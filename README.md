@@ -25,6 +25,7 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 
 - [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur 11.6**
 - [x] **Wifi and Bluetooth with AX200 (I will soon be swapping to Broadcom BCM94360NG)**
+- [x] **Sleep** Also lights up the native ThinkPad Moon icon! :) (debug with `sudo pmset -g`)
 - [x] **Trackpoint**
 - [x] **All mouse buttons and trackpad**
 - [x] **iMessage**
@@ -41,9 +42,8 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 - [x] **SD Card Reader**
 - [x] **Headphone jacks**
 
-## Not working so far
+## Not working
 
-- Sleep *Sometimes it works* - if you run Sleep > Lock Screen, it will sleep after a while. I am working on this!
 - Fingerprint reader
 
 ## Credits
