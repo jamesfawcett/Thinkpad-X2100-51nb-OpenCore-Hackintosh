@@ -88,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX.aml</string>
+				<string>SSDT-USBX.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -446,24 +446,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBInjectAll.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBInjectAll</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -554,24 +536,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-				<key>Comment</key>
-				<string>Keyboard</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooInput</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string>PS2Controller</string>
@@ -608,6 +572,24 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
+				<key>Comment</key>
+				<string>Mouse</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Mouse</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
 				<string>Trackpad</string>
@@ -626,13 +608,13 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>Mouse</string>
+				<string>Keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Mouse</string>
+				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -698,49 +680,13 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>SidecarFixup.kext</string>
+				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
-				<string>Sidecar Fixup</string>
+				<string>USBInjectAll</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SidecarFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
-				<key>Comment</key>
-				<string>NVME Fix</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>YogaSMC.kext</string>
-				<key>Comment</key>
-				<string>System Management Controller (SMC) Driver</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/YogaSMC</string>
+				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -960,6 +906,8 @@
 			<false/>
 			<key>Target</key>
 			<integer>3</integer>
+			<key>#Target</key>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -978,24 +926,6 @@
 				<string>Windows 10</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x2,0xFFFF,0x0)/HD(7,GPT,CFB83D52-C55F-4E80-9CA0-B8A5D6F4093F,0x1C50E800,0xC348000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>Manjaro</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,86-B4-07-46-4A-44-1B-00)/HD(1,GPT,A5690CD4-294F-9847-AAF9-E5ACED517252,0x800,0x2874000)/\EFI\BOOT\BOOTx64-manjaro-nvme.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1145,7 +1075,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 alcid=13 swd_panic=1 -v</string>
+				<string>keepsyms=1 alcid=13 swd_panic=1</string>
 				<key>csr-active-config</key>
 				<data>5wsAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1373,7 +1303,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#OpenCanopy.efi</string>
+				<string>OpenCanopy.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1383,7 +1313,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#AudioDxe.efi</string>
+				<string>AudioDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1393,7 +1323,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#OpenUsbKbDxe.efi</string>
+				<string>OpenUsbKbDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1403,7 +1333,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#UsbMouseDxe.efi</string>
+				<string>UsbMouseDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1413,7 +1343,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#Ps2KeyboardDxe.efi</string>
+				<string>Ps2KeyboardDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1423,7 +1353,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#Ps2MouseDxe.efi</string>
+				<string>Ps2MouseDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1433,7 +1363,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#HiiDatabase.efi</string>
+				<string>HiiDatabase.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1453,7 +1383,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#XhciDxe.efi</string>
+				<string>XhciDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1463,7 +1393,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>#ExFatDxe.efi</string>
+				<string>ExFatDxe.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
