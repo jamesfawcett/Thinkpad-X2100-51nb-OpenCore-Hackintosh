@@ -77,14 +77,14 @@
 						AwAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>HS04</key>
 					<dict>
 						<key>Comment</key>
 						<string>SD Card Reader</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>1</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -97,14 +97,14 @@
 						BQAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
 						<key>Comment</key>
 						<string>Right Front 2.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
@@ -117,12 +117,12 @@
 						BwAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>HS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CAAAAA==
@@ -135,7 +135,7 @@
 						CQAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>HS10</key>
 					<dict>
@@ -155,7 +155,7 @@
 						CwAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>HS12</key>
 					<dict>
@@ -164,7 +164,7 @@
 						DAAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>SS01</key>
 					<dict>
@@ -173,7 +173,7 @@
 						DQAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>SS02</key>
 					<dict>
@@ -182,7 +182,7 @@
 						DgAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>SS03</key>
 					<dict>
@@ -191,7 +191,7 @@
 						DwAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>SS04</key>
 					<dict>
@@ -200,7 +200,7 @@
 						EAAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>SS05</key>
 					<dict>
@@ -209,7 +209,7 @@
 						EQAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 					<key>SS06</key>
 					<dict>
@@ -218,7 +218,7 @@
 						EgAAAA==
 						</data>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 					</dict>
 				</dict>
 			</dict>
