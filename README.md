@@ -1,6 +1,7 @@
 # Thinkpad-X2100-51nb-OpenCore-Hackintosh
 
 ![Thinkpad X2100 hackintosh OpenCore](/thinkpad-x2100.jpg)
+![Thinkpad X2100 using Iphone as webcam wirelessly](/thinkpad-x2100-continuity.jpg)
 
 ## Current Specs
 
@@ -17,18 +18,22 @@
 Full install guide is available in the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)
 
 - Download the EFI
-- Generate SMBIOS for MacBookPro15,2 and put the values in config.plist. 
+- Generate SMBIOS for ~MacBookPro15,2~ MacBookPro16,1 and put the values in config.plist. 
 
 Alternativly, open the config.plist with [OpenCore Configurator](https://github.com/notiflux/OpenCore-Configurator) and generate the values automatically. Check coverage and make sure the serial IS NOT VALID if you want iMessage to work ;) I also recommend [Hackintool](https://github.com/headkaze/Hackintool), it's super helpful for mounting EFI files and debugging.
 
+
+
 ## Working
 
-- [x] **Tested with macOS Catalina 10.15.6 and macOS Big Sur 11.6**
+- [x] **Tested with macOS Catalina 10.15.6, macOS Big Sur 11.6, Monterey and Ventura**
 - [x] **Wifi and Bluetooth with AX200 (I will soon be swapping to Broadcom BCM94360NG)**
 - [x] **Sleep** Also lights up the native ThinkPad Moon icon! :) (debug with `sudo pmset -g`)
 - [x] **Trackpoint**
 - [x] **All mouse buttons and trackpad**
 - [x] **iMessage**
+- [x] **Airdrop**
+- [x] **Continuity Camera (In Ventura)**
 - [x] **USB-C**
 - [x] **Audio speakers**
 - [x] **Volume control buttons**
