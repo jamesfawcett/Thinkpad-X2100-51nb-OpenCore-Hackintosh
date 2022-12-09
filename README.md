@@ -6,11 +6,12 @@
 ## Current Specs
 
 - Modified ThinkPad X2100 built by KK-Mod Shop with a 51nb motherboard 
-- ThinkPad X201s Chassis with brand new plastics
-- 51nb Internal Motherboard (Gen4 with USB-C support)
-- Quad-core i7-10150u CPU
+- Now fitted with 5th batch motherboard from Jacky, with 3000x2000 display
+- ThinkPad X201S Chassis with brand new plastics
+- ~~51nb Internal Motherboard (Gen4 with USB-C support)~~ 51nb Internal Motherboard (Gen5 with USB-C support)
+- ~~Quad-core i7-10150u CPU 4th Batch 51nb~~ Upgraded: Hexacore i7 10710u CPU 5th Batch 51nb (both are compatible)
 - 32gb DDR4 Ram (supports up to 64gb)
-- 12.6 inch 3:2 2880 x 1920 resolution display
+- ~~12.6 inch 3:2 2880 x 1920 resolution display~~ Upgraded: 3000 x 2000 resolution display (both are compatible)
 - 6 Cell genuine Lenovo battery
 
 ## Instructions
@@ -18,7 +19,9 @@
 Full install guide is available in the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)
 
 - Download the EFI
-- Generate SMBIOS for ~MacBookPro15,2~ MacBookPro16,1 and put the values in config.plist. 
+- Generate SMBIOS for ~~MacBookPro15,2~~ MacBookPro16,1 and put the values in config.plist. 
+
+Any questions please ask.
 
 Alternativly, open the config.plist with [OpenCore Configurator](https://github.com/notiflux/OpenCore-Configurator) and generate the values automatically. Check coverage and make sure the serial IS NOT VALID if you want iMessage to work ;) I also recommend [Hackintool](https://github.com/headkaze/Hackintool), it's super helpful for mounting EFI files and debugging.
 
