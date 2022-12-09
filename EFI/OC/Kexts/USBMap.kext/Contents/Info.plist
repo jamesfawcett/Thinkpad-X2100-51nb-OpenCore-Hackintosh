@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro15,2-XHC</key>
+		<key>MacBookPro16,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
@@ -51,7 +51,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>Comment</key>
-						<string>LEFT REAR</string>
+						<string>LEFT REAR USB2</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -62,7 +62,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>Comment</key>
-						<string>LEFT FRONT 3.0</string>
+						<string>LEFT FRONT USB3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -102,7 +102,7 @@
 					<key>HS06</key>
 					<dict>
 						<key>Comment</key>
-						<string>RIGHT FRONT</string>
+						<string>RIGHT FRONT USB2</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -148,6 +148,24 @@
 						CgAAAA==
 						</data>
 					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						CwAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+					</dict>
+					<key>HS12</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						DAAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>#port</key>
@@ -184,7 +202,7 @@
 						<key>UsbConnector</key>
 						<integer>255</integer>
 					</dict>
-					<key>UK17</key>
+					<key>SS05</key>
 					<dict>
 						<key>#port</key>
 						<data>
@@ -193,7 +211,7 @@
 						<key>UsbConnector</key>
 						<integer>255</integer>
 					</dict>
-					<key>UK18</key>
+					<key>SS06</key>
 					<dict>
 						<key>#port</key>
 						<data>
@@ -205,7 +223,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro15,2</string>
+			<string>MacBookPro16,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
