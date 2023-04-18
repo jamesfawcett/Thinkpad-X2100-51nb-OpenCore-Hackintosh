@@ -805,36 +805,6 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>ALC wake patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>Y29tLmFwcGxlAF9fa2VybmVsX18A</data>
-				<key>Identifier</key>
-				<string>kernal</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>19.6.0</string>
-				<key>MinKernel</key>
-				<string>19.6.0</string>
-				<key>Replace</key>
-				<data>bm90LmFwcGxlAF9fa2VybmVsX18A</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -905,6 +875,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<true/>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>LauncherOption</key>
@@ -1048,6 +1020,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>Shutdown</string>
 				<key>Path</key>
@@ -1068,6 +1042,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -1088,6 +1064,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>CleanNvram</string>
 				<key>Path</key>
@@ -1269,6 +1247,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
@@ -1483,6 +1467,8 @@
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
+			<key>GopBurstMode</key>
+			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
@@ -1571,6 +1557,8 @@
 			<true/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
+			<key>ResizeUsePciRbIo</key>
+			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
