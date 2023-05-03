@@ -19,7 +19,7 @@
 Full install guide is available in the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)
 
 - Download the EFI
-- Generate SMBIOS for ~~MacBookPro15,2~~ MacBookPro16,1 and put the values in config.plist. 
+- Generate SMBIOS for ~~MacBookPro15,2~~ ~~MacBookPro16,1~~ MacBookPro15,4 and put the values in config.plist. 
 
 Any questions please ask.
 
@@ -53,6 +53,10 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 ## Not working
 
 - Fingerprint reader
+
+## Please note
+
+VooDooPS2 Controller kext is now downgraded to version 2.2.4. VooDooPS2 2.2.4 seems much smoother and nice to use with the trackpoint. If you experience any issues please let me know. For initial Bios setup, please copy the bios settings from here: https://github.com/xy-tech/X2100-BIOS-EC#instructions-to-update
 
 ## Credits
 
