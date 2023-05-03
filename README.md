@@ -56,7 +56,7 @@ Alternativly, open the config.plist with [OpenCore Configurator](https://github.
 
 ## Please note
 
-VooDooPS2 Controller kext is now downgraded to version 2.2.4. If you swap to MacBookPro16,1 you can use the latest VooDooPS2 controller, but video out over USB-C stops working. VooDooPS2 2.2.4 seems much smoother and nice to use with the trackpoint. If you experience any issues please let me know. For initial Bios setup, please copy the bios settings from here: https://github.com/xy-tech/X2100-BIOS-EC#instructions-to-update
+VooDooPS2 Controller kext is now downgraded to version 2.2.4. VooDooPS2 2.2.4 seems much smoother and nice to use with the trackpoint. If you experience any issues please let me know. For initial Bios setup, please copy the bios settings from here: https://github.com/xy-tech/X2100-BIOS-EC#instructions-to-update
 
 ## Credits
 
