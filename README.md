@@ -26,6 +26,14 @@ Any questions please ask.
 Alternativly, open the config.plist with [OpenCore Configurator](https://github.com/notiflux/OpenCore-Configurator) and generate the values automatically. Check coverage and make sure the serial IS NOT VALID if you want iMessage to work ;) I also recommend [Hackintool](https://github.com/headkaze/Hackintool), it's super helpful for mounting EFI files and debugging.
 
 
+### Installing MacOS Sonoma
+
+- Install using the config.plist provided and the instructions above
+- After installing:
+- Run the [Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/BUILD.html) to get Wifi working with Broadcom chips (including AirDrop/Continuity etc)
+- After installing the patch, in your config.plist change `SecureBootModel = Disabled` and `DmgLoading = Any`
+
+
 
 ## Working
 
